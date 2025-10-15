@@ -58,9 +58,13 @@ ul {
     text-align: center;
     border-left: 200px;
   }
-.lapt {
+.laptop:hover {
   transform: rotate(360deg);
   transition-duration: 15s;
-  display: grid;
+  
+}
+.eger:hover {
+  transform: rotateY(360deg);
+  transition-duration: 15s;
   
 }
