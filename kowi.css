@@ -18,10 +18,15 @@ ul {
   
   li a {
     display: block;
-    color: black;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
   }
+
+  li a:hover {
+    color: black;
+  }
+
     .container {
         max-width: 1500px;
         max-height: 700px;
@@ -47,6 +52,7 @@ ul {
   body {
     background-color: black;
     color: aliceblue;
+    text-align: center;
   }
   h1 {
     text-align: center;

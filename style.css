@@ -1,43 +1,67 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: darkgrey;
-    height: 100%;
-    position: fixed;
-    overflow: auto;
-    opacity: 70%;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: darkgrey;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  opacity: 70%;
+}
   
-  li a {
-    display: block;
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
     color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
+}
+
+.kulso {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px;
+  float: right;
+  width: 1600px;
+  align-content: center;
+}
+
+.elso {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+}
+
+.masodik {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 3;
+}
 
 .container {
-    width: 250px;
-    height: 150px;
-    border: 2px solid #2ecc71;
-    background-color: #f0f8ff;
-    margin-right: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    line-height: 200px;
-    float: right;
+  width: 800px;
+  /*height: 150px;*/
+  background-color: #f0f8ff;
+  opacity: 85%;
+  margin-right: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 200px;
+  float: right;
 }
 
 .elem {
-    background-color: grey;
-    box-sizing: border-box;
-    align-items: center;
-    
-
-
+  background-color: grey;
+  box-sizing: border-box;
+  align-items: center;
 }
+
 body {
-    background-color: black;
-    color: aliceblue;
-  }
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}

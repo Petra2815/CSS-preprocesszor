@@ -19,9 +19,13 @@ ul {
   
 li a {
   display: block;
-  color: black;
+  color: white;
   padding: 8px 16px;
   text-decoration: none;
+}
+
+li a:hover {
+  color: black;
 }
 
 body {
@@ -40,9 +44,11 @@ body {
 }
 
 img:hover {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
+  transition-duration: 5s;
 }
 
 .cim:hover {
   transform: rotateY(180deg);
+  transition-duration: 5s;
 }
