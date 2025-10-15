@@ -1,3 +1,9 @@
+@keyframes animania {
+  0%   {background-color: rgb(0, 0, 0)}
+  25%  {background-color: rgb(58, 57, 57);}
+  50%  {background-color: rgb(138, 137, 137)}
+  100% {background-color: rgb(116, 116, 116)}
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,15 +28,16 @@ ul {
   }
 
     .container {
-        max-width: 1000px;
+        max-width: 1500px;
         max-height: 700px;
         border: 20px solid black;
-        margin-right: 20px;
         box-sizing: auto;
-        text-align: center;
         line-height: 30px;
         float: right;
         font-size: x-large;
+        animation-name: animania;
+        animation-duration: 8s;
+
 
   }
   .elem {
@@ -51,3 +58,9 @@ ul {
     text-align: center;
     border-left: 200px;
   }
+.lapt {
+  transform: rotate(360deg);
+  transition-duration: 15s;
+  display: grid;
+  
+}
