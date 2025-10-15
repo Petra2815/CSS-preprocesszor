@@ -10,7 +10,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: darkgrey;
+  background-color: grey;
   height: 100%;
   position: fixed;
   overflow: auto;
@@ -50,5 +50,10 @@ img:hover {
 
 .cim:hover {
   transform: rotateY(180deg);
-  transition-duration: 5s;
+  transition-duration: 1s;
+}
+
+h4:hover {
+  transform: rotateY(180deg);
+  transition-duration: 1s;
 }

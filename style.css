@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: darkgrey;
+  background-color: grey;
   height: 100%;
   position: fixed;
   overflow: auto;
@@ -29,6 +29,7 @@ li a:hover {
   float: right;
   width: 1600px;
   align-content: center;
+  color: white;
 }
 
 .elso {
@@ -44,18 +45,16 @@ li a:hover {
 
 .container {
   width: 800px;
-  /*height: 150px;*/
-  background-color: #f0f8ff;
-  opacity: 85%;
   margin-right: 20px;
   box-sizing: border-box;
   text-align: center;
-  line-height: 200px;
+  line-height: 30px;
   float: right;
+  background-color: grey;
 }
 
 .elem {
-  background-color: grey;
+  opacity: 70%;
   box-sizing: border-box;
   align-items: center;
 }
